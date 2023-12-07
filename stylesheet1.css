@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
     margin: 0;
     background-color: #000;
@@ -6,6 +7,7 @@ body{
     font-family: Poppins, sans-serif;
     font-size: 12px;
 }
+
 nav a{
     text-decoration: none;
     color: white;
@@ -21,7 +23,6 @@ nav a{
     color: yellow;
     font-size: 30px;
     font-weight: 500;
-
     padding: 2px 20px;
     margin: 20px 0 45px;
     border-radius: 40px;
@@ -83,7 +84,7 @@ header a{
     color: #fff;
     text-shadow: 0 5px 10px #0004;
 }
-.carousel .list .item .detail{
+.carousel .list .item .mini-title{
     font-weight: bold;
     letter-spacing: 10px;
 }
@@ -162,6 +163,7 @@ header a{
     gap: 10px;
     align-items: center;
 }
+
 .arrows button{
     width: 40px;
     height: 40px;
@@ -185,7 +187,7 @@ header a{
 
 /* animation text in first item */
 
-.carousel .list .item:nth-child(1) .content .detail,
+.carousel .list .item:nth-child(1) .content .mini-title,
 .carousel .list .item:nth-child(1) .content .title,
 .carousel .list .item:nth-child(1) .content .topic,
 .carousel .list .item:nth-child(1) .content .text,
@@ -315,7 +317,7 @@ header a{
 .carousel.prev .arrows button{
     pointer-events: none;
 }
-.carousel.prev .list .item:nth-child(2) .content .detail,
+.carousel.prev .list .item:nth-child(2) .content .mini-title,
 .carousel.prev .list .item:nth-child(2) .content .title,
 .carousel.prev .list .item:nth-child(2) .content .topic,
 .carousel.prev .list .item:nth-child(2) .content .text,

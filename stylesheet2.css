@@ -1,4 +1,4 @@
-/* variables */
+
 :root {
   --black: rgb(23, 23, 23);
   --white: rgb(248, 246, 246);
@@ -6,7 +6,7 @@
   --dark-grey: rgb(57, 57, 57);
 }
 
-/* utilites */
+
 .button {
   display: block;
   padding: 0.5rem 1rem;
